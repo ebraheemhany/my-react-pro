@@ -1,0 +1,75 @@
+.container .contentt {
+width: 90%;
+margin:70px auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 30px;
+}
+.container .contentt .row {
+width: 100%;
+
+}
+.container .contentt .left {
+/* margin-right: 20px; */
+width: 50% !important;
+height: 100%;
+}
+.container .contentt .right {
+/* margin-left: 20px; */
+width: 50%;
+height: 100%;
+}
+.accordion-item {
+width: 100% !important;
+margin-top: 20px;
+margin-left: 20px;
+border-radius: 10px;
+
+}
+.accordion-header {
+width: 100%;
+border-radius: 10px !important;
+
+}
+.accordion-button {
+    background-color: var(--btn-color) !important;
+color: #fff !important;
+width: 100%;
+border-radius: 5px !important;
+}
+
+.accordion-button:focus {
+border-color: none !important;
+box-shadow: none !important;
+background-color: var(--orange-color) !important;
+}
+
+.accordion-body {
+    background-color: rgb(244, 245, 244);
+    border-radius: 5px;
+    width: 100%;
+}
+@media(max-width:990px) {
+    .slide-card .container h5 {
+        width: 25%;
+    }
+}
+
+@media (max-width:850px) {
+    .container .contentt .right {
+        display: none;
+    }
+    .container .contentt .left {
+        width: 85% !important;
+        margin: auto;
+    }
+
+}
+@media(max-width:500px){
+    .container .contentt .left {
+        width: 100% !important;
+        margin: auto;
+     
+}
+}

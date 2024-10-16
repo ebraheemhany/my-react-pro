@@ -1,0 +1,115 @@
+.ragister {
+    background-color:#F5F5FC ;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .ragister .ragister-content {
+    width: 30%;
+    height: 600px;
+    background-color: #fff;
+    box-shadow: 15px 10px 20px rgb(218, 213, 213);
+    border-radius: 20px;
+    }
+    .ragister .ragister-content img {
+    display: block;
+    width: 40%;
+    margin: 30px auto;
+    }
+    .ragister .ragister-content input {
+    display: block ;
+    width: 85%;
+    border: 1px solid rgb(133, 197, 240);
+    margin:  10px auto;
+    padding: 15px 20px;
+    border-radius: 5px;
+    }
+    .ragister .ragister-content .loogn {
+    width: 85%;
+    margin-left: 35px;
+    margin-top: 10px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    background-color: var(--btn-color);
+    color: #fff;
+    }
+    .ragister .ragister-content .loogn a {
+        color: #fff;
+    }
+    .ragister .ragister-content h5 {
+    text-align: center;
+    color: var(--btn-color);
+    margin-top: 20px;
+    }
+    .ragister .ragister-content p {
+    text-align: center;
+    margin-top: 40px;
+    color: #000;
+    font-size: 22px;
+    }
+    .ragister .ragister-content .rages {
+        width: 85%;
+        margin-left: 35px;
+      
+        padding: 15px 20px;
+        border-radius: 5px;
+        background-color: var(--orange-color);
+        color: #fff;
+    
+    
+    }
+    .ragister .ragister-content .rages a {
+        color: #fff;
+    }
+    .ragister .ragister-content button:hover {
+        opacity: 0.5;
+    }
+    @media(max-width:1200px) {
+        .ragister .ragister-content {
+            width: 40%;
+        }
+    }
+    @media(max-width:1050px) {
+        .ragister .ragister-content {
+            width: 50%;
+        }
+    }
+    @media(max-width:900px) {
+        .ragister .ragister-content {
+            width: 60%;
+        }
+    }
+    @media(max-width:600px) {
+        .ragister .ragister-content {
+            width: 75%;
+        }
+        .ragister .ragister-content .loogn {
+            margin-left: 28px;
+        }
+        .ragister .ragister-content .rages {
+            margin-left: 28px; 
+        }
+    }
+    @media(max-width:450px) {
+        .ragister .ragister-content {
+            width: 85%;
+        }
+        .ragister .ragister-content .loogn {
+            margin-left: 25px;
+        }
+        .ragister .ragister-content .rages {
+            margin-left: 25px; 
+        }
+
+    }
+
+
+
+
+
+
+
+
+

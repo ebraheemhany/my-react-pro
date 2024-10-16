@@ -1,0 +1,102 @@
+nav {
+background-color: #F7F7FF;
+width: 100%;
+height: auto;
+border-radius: 0px !important;
+
+}
+.navbar-light .navbar-nav {
+    margin-top: 16px;
+}
+.navbar-light .navbar-nav .nav-link {
+color: var(--main-color);
+font-weight: 700;
+letter-spacing: 1px;
+margin-right: 8px;
+font-size: 16px;
+transition: 0.3s ease-in-out;
+
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: var(--orange-color);
+}
+.navbar-light .navbar-nav .nav-link.active{
+    color: var(--orange-color);
+}
+.navbar-light .navbar-nav .nav-link button {
+background-color: var(--btn-color);
+width: 200px;
+height: 50px;
+color: #ffffff;
+border: 1px solid var(--btn-color);
+text-transform: uppercase;
+font-size: 15px;
+margin-top: -10px;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: 0.3s ease-in-out;
+
+}
+.navbar-light .navbar-nav .nav-link button:hover {
+background-color: rgb(52, 52, 160);
+border: 1px solid rgb(52, 52, 160) ;
+}
+.navbar-light .navbar-nav .nav-link button span {
+background-color: #ffffff;
+color: var(--btn-color);
+width: 40px;
+height: 40px;
+line-height: 40px;
+text-align: center;
+border-radius: 4px;
+margin-left: 40px;
+font-size: 20px;
+
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu{
+    /* position: static; */
+    background-color: #ffffff;
+   /* border: ipx solid #ffffff !important; */
+   border: none;
+    width: 200px !important;
+ border-radius: 0px;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu li{
+    width: 100%;
+    height: 30px !important;
+    position: relative;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item {
+color: #444;
+font-size: 16px;
+line-height: 25px !important;
+position: relative;
+}
+/* style open menu */
+.navbar-light .navbar-toggler {
+    border: 1px solid var(--main-color) !important;
+    color: #44444400;
+}
+
+
+
+@media(max-width:993px){
+    .navbar-expand-lg .navbar-nav .dropdown-menu{
+        width: 100% !important;
+    }
+    .navbar-light .navbar-nav .nav-link button {
+        width: 100%;
+        margin-top: 0px;
+    }
+
+}
+
+
+
+
+
+
+

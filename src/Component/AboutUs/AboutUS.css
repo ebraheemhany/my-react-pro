@@ -1,0 +1,238 @@
+
+.About-content {
+width: 100%;
+background-color:#eeeefa ;
+}
+.About-content .container {
+width: 80% ;
+margin: 90px auto;
+
+
+}
+.About-content .container .caards {
+display: grid;
+grid-template-columns: repeat(4,1fr);
+width: 100%;
+
+}
+.About-content .container .caards .caard {
+background-color: #ffffff;
+margin: 50px 10px;
+padding: 40px 30px;
+border-radius: 20px;
+/* border-left: 2px solid var(--main-color);
+border-top: 2px solid var(--main-color); */
+box-shadow: 10px 5px 20px gray;
+transition: 0.3s ease-in;
+}
+.About-content .container .caards .caard:hover {
+    box-shadow: none;
+}
+
+
+.About-content .container .caards .caard h1 {
+font-size: 50px;
+font-weight: bolder;
+color: var(--orange-color);
+transition: 0.3s ease-in;
+
+}
+
+.About-content .container .caards .caard h3 {
+color: var(--main-color);
+padding-top: 5px;
+font-weight: bold;
+transition: 0.3s ease-in;
+}
+
+.About-content .container .caards .caard p {
+font-size: 18px;
+color: rgba(0, 0, 0, 0.678);
+transition: 0.3s ease-in;
+}
+
+/* start card tow */
+.sec-Ourdoc {
+width: 100%;
+
+
+}
+.sec-Ourdoc .container {
+width: 75%;
+margin: auto;
+}
+.sec-Ourdoc .container h5 {
+background-image:url(../clink/char-2.png);
+text-align: center;
+width: 20%;
+margin: auto;
+
+}
+.sec-Ourdoc .container h3 {
+font-size: 60px;
+color: var(--main-color);
+text-align: center;
+font-weight: bold;
+margin: 30px 0;
+}
+.sec-Ourdoc .container .caards2 {
+display: grid;
+grid-template-columns: repeat(3 , 1fr);
+gap: 20px;
+
+}
+.sec-Ourdoc .container .caards2 .caard2 {
+    border: 1px solid rgb(119, 214, 238);
+border-radius: 8px;
+overflow: hidden;
+transition: 0.4s ease-in;
+}
+.sec-Ourdoc .container .caards2 .caard2:hover {
+box-shadow: 5px 10px 20px rgba(193, 244, 253, 0.836);
+border: none;
+}
+.sec-Ourdoc .container .caards2 .caard2 img {
+width: 100%;
+
+height: 200px;
+object-fit: cover;
+/* box-shadow: 5px 10px 20px rgb(207, 205, 205); */
+
+
+}
+.sec-Ourdoc .container .caards2 .caard2 h2 {
+text-align:center;
+font-size: 25px;
+font-weight: bold;
+color: var(--main-color);
+margin: 40px 0 20px 0;
+}
+.sec-Ourdoc .container .caards2 .caard2 h6 {
+text-align: center;
+color: var(--orange-color);
+font-size: 20px;
+margin-top: -10px;
+
+
+}
+.sec-Ourdoc .container .caards2 .caard2 .icon {
+text-align: center;
+
+
+}
+.sec-Ourdoc .container .caards2 .caard2 .icon i {
+width: 40px;
+height: 40px;
+line-height: 40px;
+background-color: var(--btn-color);
+margin: 20px 0 30px 10px;
+color: #ffffff;
+border-radius: 8px;
+transition: 0.3s ease-in;
+}
+.sec-Ourdoc .container .caards2 .caard2 .icon i:hover {
+background-color: var(--orange-color);
+scale: 1.1;
+cursor: pointer;
+}
+
+
+@media(max-width:1280px) {
+    .About-content .container {
+        width: 90%;
+    }
+
+
+}
+@media(max-width:1002px) {
+    .About-content .container .caards {
+        grid-template-columns:repeat(2 , 1fr);
+    }
+    .About-content .container .caards .caard {
+        margin: 25px 10px;
+    }
+    .sec-Ourdoc .container {
+width: 90% !important;
+
+    }
+
+}
+@media(max-width:830px) {
+    .sec-Ourdoc .container h3 {
+     font-size: 50px !important;
+
+
+    }
+
+.sec-Ourdoc .container {
+        width: 97% !important;
+        
+            }
+.sec-Ourdoc .container .caards2 .caard2 h2 {
+  font-size: 19px !important;
+
+            }
+.sec-Ourdoc .container .caards2 .caard2 h6 {
+font-size: 16px;
+
+}
+.sec-Ourdoc .container .caards2 .caard2 .icon i{
+width: 30px !important;
+height: 30px !important;
+line-height: 30px !important;
+text-align: center !important;
+}
+
+
+}
+
+@media(max-width:700px) {
+    .sec-Ourdoc .container .caards2 {
+        grid-template-columns: repeat(2 , 1fr) !important;
+        
+    }
+
+}
+
+@media(max-width:580px) {
+    .About-content .container {
+        width: 95%;
+    }
+    .sec-Ourdoc .container .caards2 {
+        grid-template-columns: repeat(1 , 1fr) !important;
+        
+    }
+    .sec-Ourdoc .container {
+        width: 80% !important;
+        
+            }
+            .sec-Ourdoc .container .caards2 .caard2 h2 {
+                font-size: 25px !important;
+              
+                          }
+              .sec-Ourdoc .container .caards2 .caard2 h6 {
+              font-size: 19px !important;
+              
+              }
+              .sec-Ourdoc .container .caards2 .caard2 .icon i{
+              width: 40px !important;
+              height: 40px !important;
+              line-height: 40px !important;
+              text-align: center !important;
+              }
+
+}
+@media(max-width:520px) {
+    .About-content .container {
+        width: 85%;
+    }
+    .About-content .container .caards {
+        grid-template-columns:repeat(1 , 1fr);
+    }
+    .About-content .container .caards .caard {
+        margin: 11x 10px;
+    }
+}
+
+
+

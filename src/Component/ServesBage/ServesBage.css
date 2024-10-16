@@ -1,0 +1,84 @@
+
+.container .cradds {
+width: 80%;
+margin: 60px auto;
+display: grid;
+grid-template-columns: repeat(3 , 1fr);
+gap: 30px;
+}
+.container .cradds .cradd {
+
+/* background-image: url('../clink/bg1.c53c8971d16c9a1033ae.jpg.jpg'); */
+width: 100%;
+object-fit: cover;
+background-color: #fff;
+border-radius: 15px;
+box-shadow: 0px 5px 20px rgba(211, 218, 219, 0.521);
+cursor: pointer;
+transition: 0.3s ease-in;
+}
+.container .cradds .cradd:hover {
+    box-shadow: none;
+}
+.container .cradds .cradd i {
+width: 80px;
+height: 80px;
+border: 1px solid rgb(216, 213, 213);
+border-radius: 15px;
+line-height: 80px;
+text-align: center;
+font-size: 55px;
+color: var(--main-color);
+margin: 40px 0 20px 20px;
+
+animation: mover 1s infinite alternate;
+transition: 0.3s ease-in-out;
+box-shadow: 0px 10px 20px rgba(194, 188, 188, 0.753);
+}
+.container .cradds .cradd i:hover {
+   color: var(--orange-color); 
+}
+.container .cradds .cradd h3 {
+font-size: 30px;
+color: var(--main-color);
+font-weight: 700;
+margin-left: 20px;
+}
+.container .cradds .cradd p {
+margin-left: 20px;
+color: rgb(104, 99, 99);
+font-size: 20px;
+
+}
+.container .cradds .cradd button {
+padding: 10px 20px;
+background-color: var(--btn-color);
+color: #fff;
+margin:  0 0 30px 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

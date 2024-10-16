@@ -1,0 +1,97 @@
+.opinion {
+margin: 80px auto;
+width: 75%;
+
+}
+.opinion .row h5 {
+text-align: center;
+background-image: url(../clink/char-2.png);
+width: 15%;
+margin: auto;
+color: var(--main-color);
+font-weight: bold;
+}
+.opinion .row h6 {
+text-align: center;
+font-size: 40px;
+font-weight: 900;
+margin: 40px 0;
+color: var(--main-color);
+}
+.opinion .row .left-section {
+position: relative;
+
+}
+.opinion .row .left-section .main-img {
+  transform: rotate(360deg);
+}
+.opinion .row .left-section ul {
+  padding: 50px;  
+  position: relative;
+}
+.opinion .row .left-section ul li {
+position: absolute;
+
+
+
+
+} 
+.opinion .row .left-section ul li a img {
+width: 60px;
+height: 60px;
+object-fit: cover;
+border-radius: 50%;
+}
+.opinion .row .left-section ul li:nth-child(1) {
+left: 30px;
+bottom: 390px;
+
+}
+.opinion .row .left-section ul li:nth-child(2) {
+left: 38%;
+bottom: 490px;
+
+}
+.opinion .row .left-section ul li:nth-child(3) {
+right: 100px;
+bottom: 390px;
+
+}
+.opinion .row .left-section ul li:nth-child(4) {
+right: 100px;
+bottom: 200px;
+
+}
+.opinion .row .left-section ul li:nth-child(5) {
+right: 270px;
+bottom: 110px;
+
+}
+.opinion .row .left-section ul li:nth-child(6) {
+left: 30px;
+bottom: 200px;
+
+}
+.opinion .row .right-section {
+background-color: var(--orange-color);
+margin-top: 50px;
+padding: 50px 30px;
+color: #fff;
+border-radius: 20px 0 20px 20px;
+}
+.opinion .row .right-section .content p {
+font-size: 20px;
+color: #dad5d5da;
+
+
+}
+.swiper-pagination-bullet-active {
+    color: #fff !important ;
+}
+
+
+
+
+
+
+

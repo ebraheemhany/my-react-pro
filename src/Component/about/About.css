@@ -1,0 +1,435 @@
+.about {
+width: 80% ;
+margin: 60px auto;
+}
+.about .conta {
+display: flex;
+align-items: center;
+gap: 40px;
+}
+.about .conta .all {
+display: grid;
+grid-template-columns: repeat(2,1fr);
+gap: 15px;
+
+}
+.about .conta .about-conte-left {
+width: 50%;
+
+} 
+.about .conta .about-conte-right {
+    width: 45%;
+}
+.about .conta .all .one {
+border-radius: 0px 60px 60px 60px;
+margin-left: 25px;
+margin-top: 20px;
+width: 80%;
+}
+.about .conta .all .tow {
+    border-radius: 60px 0px 60px 60px;
+margin-right: 25px;
+width: 100%;
+}
+.about .conta .all .three {
+    border-radius: 60px 60px 60px 0px;
+    margin-left: 55px;
+    
+    margin-top: -10px; 
+width: 220px;
+}
+.about .conta .all .num {
+    background-color: #e6e7ff;
+    border-radius: 60px 60px 0 60px;
+    color: #565acf;
+    display: block;
+    font-size: 120px;
+    font-weight: 800;
+    line-height: 75px;
+    padding: 60px 0 30px;
+    position: relative;
+    text-align: center;
+    width: 210px;
+    z-index: 2;
+margin-top: 10px;
+  margin-left: -30px;
+  height: 90%;
+
+}
+.about .conta .all .num span {
+    font-size: 20px;
+    display: block;
+}
+.about .conta .all .num::after {
+    border: 2px solid #565acf;
+    border-radius: 60px 60px 0 60px;
+    content: "";
+    height: 100%;
+    left: 10px;
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    z-index: -1;
+
+}
+
+/* /////////// */
+.about .conta .text {
+    margin-top: 0px;
+   
+}
+.about .conta .text h4 {
+    background-image: url('../clink/char-2.png');
+width: 130px;
+padding: 0 18px;
+font-size: 23px;
+color: var(--orange-color);
+margin-top: 90px;
+}
+.about .conta .text h2 {
+    color: var(--main-color);
+font-size: 55px;
+font-weight: 700;
+width: 95%;
+margin: 20px 0;
+}
+.about .conta .text p {
+width: 95%;
+font-size: 23px;
+color: rgb(114, 102, 102);
+
+}
+.about .conta .text .icon_text {
+display: grid;
+grid-template-columns: repeat(2,1fr);
+margin-top: 50px;
+width: 100%;
+gap: 25px;
+
+}
+.about .conta .text .icon_text .a,
+.about .conta .text .icon_text .b,
+.about .conta .text .icon_text .c,
+.about .conta .text .icon_text .d {
+
+   
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+border: 1px solid red;
+overflow: hidden;
+height: 60px;
+box-shadow: 2px 2px 2px rgb(218, 213, 213);
+
+
+}
+
+.about .conta .text .icon_text .a p,
+.about .conta .text .icon_text .b p,
+.about .conta .text .icon_text .c p,
+.about .conta .text .icon_text .d p {
+    width: 100%;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.about .conta .text .icon_text .a {
+border: 1px solid #b2f0fb;
+border-radius: 8px;
+
+
+}
+.about .conta .text .icon_text .a .icon{
+    background-color:#b2f0fb ;
+    
+
+}
+.about .conta .text .icon_text .b {
+border: 1px solid #a4fcc4;
+border-radius: 8px;
+
+
+}
+.about .conta .text .icon_text .b .icon {
+background-color: #a4fcc4;
+}
+.about .conta .text .icon_text .c {
+border: 1px solid #ffbdbc;
+border-radius: 8px;
+}
+.about .conta .text .icon_text .c .icon{
+    background-color: #ffbdbc;
+}
+.about .conta .text .icon_text .d {
+border: 1px solid #e2c4ff;
+border-radius: 8px;
+}
+.about .conta .text .icon_text .d .icon{
+    background-color: #e2c4ff;
+   
+}
+
+.about .conta .text .icon {
+width: 30%;
+height: 100%;
+margin-left: -19px;
+border-radius: 0 13px 13px 0;
+
+}
+.about .conta .text .icon i {
+    font-size: 50px;
+  
+    color: var(--main-color);
+ margin-top: 5px;
+    margin-left: 20px;
+}
+.about .conta .text .icon i:hover {
+    animation: over 1s infinite alternate;
+    transition: 0.1s;
+}
+
+@keyframes over {
+0%{
+    transform: translatey(0px);
+}
+25%{
+    transform: translatey(4px);
+}
+
+50% {
+    transform: translateX(4px);
+}
+100%{
+    transform: translateX(0px);
+}
+
+} 
+.about .conta button {
+margin-top: 50px;
+background-color: var(--btn-color);
+color: #fff;
+height: 50px !important;
+padding: 0px 30px;
+
+
+
+}
+
+@media(max-width:1300px) {
+    .about .conta .all .num {
+        margin-left: 10px;
+    }
+
+ 
+
+
+
+}
+@media(max-width:1230px) {
+    .about {
+        width: 90%;
+    }
+    .about .conta .text h2 {
+width: 80%;
+font-size: 40px;
+    }
+    .about .conta .text p {
+width: 80%;
+font-size: 18px;
+margin: auto;
+    }
+
+
+}
+@media(max-width:1105px) {
+    .about {
+        width: 97%;
+    }
+    .about .conta .text {
+        margin-left: 20px;
+    }
+    .about .conta .about-conte-right {
+        width: 50%;
+    }
+    .about .conta .text .icon i {
+
+        font-size: 30px;
+    }
+
+
+}
+@media(max-width:1001px) {
+    footer h2 {
+        font-size: 22px !important;
+    }
+    footer .footer-logo {
+  width: 180px;
+
+    }
+} 
+@media(max-width:950px) {
+    .about .conta .text h2 {
+width: 95%;
+font-size: 30px;
+    }
+    .about .conta  {
+        display: block;
+    }
+    .about .conta .about-conte-right {
+width: 90%;
+margin: auto;
+text-align: center;
+    }
+    .about .conta .about-conte-left {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+
+    }
+    .about .conta .all .one {
+        width: 70%;
+        margin-left: 40px;
+    }
+    .about .conta .all .tow {
+        width: 85%;
+        margin-left: -30px;
+    }
+    .about .conta .all .three {
+        width: 60%;
+        margin-left: 75px;
+    }
+    .about .conta .all .num {
+width: 60%;
+height: 100%;
+margin-left: -5 0px;
+    }
+    .about .conta .text h4 {
+        margin: 30px auto 0 auto;
+    }
+    .about .conta .text .icon{
+        margin-left: -50px;
+        width: 40%;
+    }
+    .about .conta .text .icon i {
+
+        font-size: 40px;
+    }
+    .about .conta .text .icon_text .a p,
+    .about .conta .text .icon_text .b p,
+    .about .conta .text .icon_text .c p,
+    .about .conta .text .icon_text .d p {
+        width: 100%;
+      margin-bottom: 10px;
+        font-size: 22px;
+    }
+    
+
+
+
+}
+
+@media(max-width:670px) {
+    .about .conta .about-conte-left {
+        width: 98%;
+    }
+    .about .conta .text .icon i {
+
+        font-size: 30px;
+    }
+    .about .conta .text .icon{
+        margin-left: -30px;
+        width: 50%;
+        padding-top: 10px;
+    }
+
+
+}
+@media(max-width:550px) {
+    .about .conta .all .num {
+        font-size: 90px;
+        height: 80%;
+        width: 75%;
+    }
+    .about .conta .all .three {
+width: 75%;
+margin-left: 55px;
+
+    }
+    .about .conta .all .num span {
+        font-size: 16px;
+    }
+    .about .conta .text h2 {
+width: 100%;
+margin: auto;
+    }
+    .about .conta .text p {
+width: 80%;
+margin: auto;
+
+    }
+    .about .conta .text .icon_text {
+        grid-template-columns: repeat(1 , 1fr);
+     
+    }
+    .about .conta .text .icon{
+        margin-left: -70px;
+        width: 20%;
+        padding-top: 10px;
+        padding-right: 10px;
+    }
+    
+}
+@media (max-width:520px) {
+    .about .conta .all .num{
+font-size: 75px;
+
+    }
+    .about .conta .all .num span {
+font-size: 12px;
+
+    }
+    .about .conta .all .tow {
+margin-left: -10px;
+border-radius: 40px 0px 40px 40px;
+    }
+    .about .conta .all .one {
+        border-radius: 0px 40px 40px 40px;
+margin-left: 30px;
+    }
+    .about .conta .all .three {
+        border-radius: 40px 40px 40px 0px;
+margin-left: 35px;
+    }
+    .about .conta .all .num {
+        border-radius: 40px 40px 0 40px;
+
+    }
+    .about .conta .all .num::after {
+        border-radius: 40px 40px 0 40px;
+    }
+    .about .conta .text .icon{
+        margin-left: -30px;
+        width: 30%;
+        padding-top: 10px;
+    }
+}
+
+@media(max-width:420px) {
+    .about .conta .all .num {
+        font-size: 75px;
+        height: 70%;
+        width: 85%;
+    }
+    .about .conta .all .num span {
+margin: 0 0 20px 20px;
+
+    }
+   
+}
+
+
+
+
+
+

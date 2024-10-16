@@ -1,0 +1,102 @@
+.error {
+width: 100%;
+margin: 40px auto;
+text-align: center;
+}
+.error .err-content {
+width: 60%;
+margin: auto;
+
+}
+.error .err-content .err-titlt {
+font-size: 220px;
+font-weight: bolder;
+color: var(--main-color);
+
+}
+ .error .err-content .err-titlt span {
+background-image: url('../clink/error.gif');
+background-size: 100%;
+display: inline-block;
+height: 145px;
+    margin: 0 10px;
+    width: 145px;
+
+}
+.error .err-content h3 {
+font-size: 40px;
+font-weight: 700;
+color: var(--main-color);
+margin-top: -20px;
+}
+.error .err-content p {
+font-size: 25px;
+color: rgb(104, 104, 104);
+line-height: 30px;
+}
+.error .err-content button {
+padding: 15px 20px;
+background-color: var(--btn-color);
+
+border-radius: 10px;
+margin: 10px 0 0 10px;
+}
+.error .err-content button a {
+    color: #fff;
+}
+@media(max-width:800px) {
+    .error .err-content {
+        width: 75%;
+    }
+
+}
+@media(max-width:650px) {
+    .error .err-content {
+        width: 85%;
+    }
+
+}
+@media(max-width:570px) {
+    .error .err-content {
+        width: 90%;
+    }
+    .error .err-content h3 {
+  font-size: 30px;
+
+    }
+    .error .err-content p {
+        font-size: 18px;
+    }
+
+
+}
+@media(max-width:480px) {
+    .error .err-content .err-titlt {
+        font-size: 170px;
+    }
+    .error .err-content .err-titlt span {
+width: 125px;
+background-repeat: no-repeat;
+height: 130px;
+    }
+}
+@media(max-width:400px) {
+    .error .err-content .err-titlt {
+        font-size: 150px;
+    }
+    .error .err-content .err-titlt span {
+width: 115px;
+background-repeat: no-repeat;
+height: 120px;
+    }
+    .error .err-content h3 {
+        font-size: 25px;
+    }
+    .error .err-content p {
+        font-size: 16px;
+    }
+}
+
+
+
+
